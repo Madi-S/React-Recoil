@@ -1,2 +1,2 @@
-export { TodoItem } from './TodoItem';
-export { TodoItemContainer } from './TodoItemContainer';
+export { TodoItem } from './TodoItem'
+export { TodoItemContainer } from './TodoItemContainer'

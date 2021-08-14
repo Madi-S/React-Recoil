@@ -30,8 +30,10 @@ export const todoItemsTotalState = selector({
         ).length
         const totalUncompletedItemsCount =
             totalItemsCount - totalCompletedItemsCount
-        const itemsCompletedPercent =
-            (totalCompletedItemsCount / totalItemsCount * 100 ).toFixed(0)
+        const itemsCompletedPercent = (
+            (totalCompletedItemsCount / totalItemsCount) *
+            100
+        ).toFixed(0)
 
         return {
             totalItemsCount,
